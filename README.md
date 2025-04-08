@@ -1,6 +1,6 @@
 # Readme
 
-I have tried to make it a bit more organised than just a single script. Each step has its own file with proper comments. Head to `/main.py` to see more how everything connects there or install dependencies in shell using `pip install -r requirements.txt` and then run `python main.py`. There are few other commqne line options mention in the `/main.py` However, those were mostly useful for debugging and demonstration. 
+I have tried to make it a bit more organised than just a single script. Each step has its own file with proper comments. Head to `/main.py` to see more how everything connects there or install dependencies in shell using `pip install -r requirements.txt` and then run `python main.py`. There are few other command line options mention in the `/main.py` However, those were mostly useful for debugging and demonstration. 
 
 ## How It Works
 
