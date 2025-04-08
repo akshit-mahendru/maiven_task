@@ -9,7 +9,7 @@ I have tried to make it a bit more organised than just a single script. Each ste
 3. **Personalization**: Computes relevance scores based on recency, and sector match.
 4. **Fallback Recommendations**: This was added at the end and some of it code should be in `/src/db.py`. as there were not many direct matches for few jurisdictions like `australia`. I fetched similar sector policies with some `relevance` score.
 
-Output and Logs are stored as well. I have kept raw and processed file too.
+Output and Logs are stored as well. I have kept raw and processed file too. I added Healthcare as a sector for Carbon Management Strategy Policy (Germany) To test the Fallback Recommendations when no jurisdiction match
 
 ## Scaling
 
