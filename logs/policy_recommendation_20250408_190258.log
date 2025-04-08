@@ -1,0 +1,104 @@
+2025-04-08 19:02:58,884 - root - INFO - Logging configured. Log file: logs/policy_recommendation_20250408_190258.log
+2025-04-08 19:02:58,884 - root - INFO - 
+=== Policy Recommendation System ===
+2025-04-08 19:02:58,884 - root - INFO - Running at: 2025-04-08 19:02:58.884236
+2025-04-08 19:02:58,884 - root - INFO - Looking for policies updated in the last 30 days
+2025-04-08 19:02:58,884 - root - INFO - Returning top 3 recommendations per customer
+2025-04-08 19:02:58,884 - root - INFO - ========================================
+2025-04-08 19:02:58,884 - root - INFO - 
+=== Step 1: Data Ingestion & Cleaning ===
+2025-04-08 19:02:58,886 - src.data_ingestion - INFO - Loaded 50 policies from data/raw/random_policies_1743755330437.csv
+2025-04-08 19:02:58,886 - src.data_ingestion - INFO - Loaded 10 companies from data/raw/company_data_single_jurisdiction_1743592075371.csv
+2025-04-08 19:02:58,887 - root - INFO - Policy geographies before cleaning: ['Bosnia and Herzegovina', 'Botswana', 'Brazil', 'Chile', 'Dominican Republic', 'Ethiopia', 'European Union', 'Fiji', 'France', 'Germany', 'Guinea', 'Hungary', 'Ireland', 'Liberia', 'Madagascar', 'Mexico', 'Netherlands', 'Panama', 'Philippines', 'Poland', 'Portugal', 'Romania', 'Saudi Arabia', 'Serbia', 'South Africa', 'South Korea', 'Spain', 'Suriname', 'Turkey', 'United Kingdom', 'Zimbabwe']
+2025-04-08 19:02:58,887 - root - INFO - Company jurisdictions before cleaning: ['Australia', 'France', 'Germany', 'Netherlands', 'Singapore', 'United Kingdom', 'United States']
+2025-04-08 19:02:58,887 - src.data_ingestion - INFO - Starting policy data cleaning
+2025-04-08 19:02:58,888 - src.data_ingestion - WARNING - Date conversion created 20 new null values in published_date
+2025-04-08 19:02:58,889 - src.data_ingestion - INFO - Unique status values: ['active' 'inactive']
+2025-04-08 19:02:58,889 - src.data_ingestion - INFO - Cleaning HTML content from descriptions
+2025-04-08 19:02:58,889 - src.data_ingestion - INFO - Converting geography to lowercase for consistent matching
+2025-04-08 19:02:58,889 - src.data_ingestion - INFO - Standardizing sectors field
+2025-04-08 19:02:58,889 - src.data_ingestion - INFO - Standardizing topics field
+2025-04-08 19:02:58,890 - src.data_ingestion - INFO - Policies data cleaning complete. 50 records after cleaning.
+2025-04-08 19:02:58,890 - src.data_ingestion - INFO - Starting company data cleaning
+2025-04-08 19:02:58,890 - src.data_ingestion - INFO - Converting operating_jurisdiction to lowercase for consistent matching
+2025-04-08 19:02:58,891 - src.data_ingestion - INFO - Standardizing sector field
+2025-04-08 19:02:58,891 - src.data_ingestion - INFO - Companies data cleaning complete. 10 records after cleaning.
+2025-04-08 19:02:58,891 - root - INFO - Policy geographies after cleaning: ['bosnia and herzegovina', 'botswana', 'brazil', 'chile', 'dominican republic', 'ethiopia', 'european union', 'fiji', 'france', 'germany', 'guinea', 'hungary', 'ireland', 'liberia', 'madagascar', 'mexico', 'netherlands', 'panama', 'philippines', 'poland', 'portugal', 'romania', 'saudi arabia', 'serbia', 'south africa', 'south korea', 'spain', 'suriname', 'turkey', 'united kingdom', 'zimbabwe']
+2025-04-08 19:02:58,891 - root - INFO - Company jurisdictions after cleaning: ['australia', 'france', 'germany', 'netherlands', 'singapore', 'united kingdom', 'united states']
+2025-04-08 19:02:58,894 - src.data_ingestion - INFO - Saved cleaned policies to data/processed/policies_cleaned.csv
+2025-04-08 19:02:58,895 - src.data_ingestion - INFO - Saved cleaned companies to data/processed/companies_cleaned.csv
+2025-04-08 19:02:58,895 - root - INFO - 
+=== Step 2: Data Integration with SQL ===
+2025-04-08 19:02:58,895 - src.db - INFO - Connected to database: policy_recommendation.db
+2025-04-08 19:02:58,898 - src.db - INFO - Loaded 50 policies to database
+2025-04-08 19:02:58,899 - src.db - INFO - Loaded 10 companies to database
+2025-04-08 19:02:58,900 - root - INFO - 
+=== Step 3: Personalization Scoring ===
+2025-04-08 19:02:58,900 - src.db - INFO - Retrieved 10 customers from database
+2025-04-08 19:02:58,900 - root - INFO - Processing recommendations for: Strategic Resources Corp (ID: 1)
+2025-04-08 19:02:58,900 - src.scoring - INFO - Getting recommendations for customer: Strategic Resources Corp with jurisdictions: ['australia']
+2025-04-08 19:02:58,900 - src.db - INFO - Querying relevant policies for jurisdiction 'australia' updated in the last 30 days
+2025-04-08 19:02:58,901 - src.db - INFO - Found 0 relevant policies
+2025-04-08 19:02:58,901 - src.scoring - WARNING - No direct matches found for Strategic Resources Corp's jurisdictions in the past 30 days.
+2025-04-08 19:02:58,901 - src.scoring - INFO - Looking for alternative recommendations...
+2025-04-08 19:02:58,901 - src.scoring - INFO - Looking for fallback recommendations for customer Strategic Resources Corp with sector: waste
+2025-04-08 19:02:58,904 - src.scoring - INFO - Found 3 fallback recommendations
+2025-04-08 19:02:58,904 - src.scoring - INFO - Using fallback recommendations based on sector relevance and recency
+2025-04-08 19:02:58,905 - root - INFO - Processing recommendations for: Global Industries Group (ID: 2)
+2025-04-08 19:02:58,905 - src.scoring - INFO - Getting recommendations for customer: Global Industries Group with jurisdictions: ['singapore']
+2025-04-08 19:02:58,905 - src.db - INFO - Querying relevant policies for jurisdiction 'singapore' updated in the last 30 days
+2025-04-08 19:02:58,905 - src.db - INFO - Found 0 relevant policies
+2025-04-08 19:02:58,905 - src.scoring - WARNING - No direct matches found for Global Industries Group's jurisdictions in the past 30 days.
+2025-04-08 19:02:58,905 - src.scoring - INFO - Looking for alternative recommendations...
+2025-04-08 19:02:58,905 - src.scoring - INFO - Looking for fallback recommendations for customer Global Industries Group with sector: construction
+2025-04-08 19:02:58,907 - src.scoring - INFO - Found 3 fallback recommendations
+2025-04-08 19:02:58,907 - src.scoring - INFO - Using fallback recommendations based on sector relevance and recency
+2025-04-08 19:02:58,908 - root - INFO - Processing recommendations for: Advanced Materials Corp (ID: 3)
+2025-04-08 19:02:58,908 - src.scoring - INFO - Getting recommendations for customer: Advanced Materials Corp with jurisdictions: ['germany']
+2025-04-08 19:02:58,908 - src.db - INFO - Querying relevant policies for jurisdiction 'germany' updated in the last 30 days
+2025-04-08 19:02:58,909 - src.db - INFO - Found 1 relevant policies
+2025-04-08 19:02:58,910 - src.scoring - INFO - Returning 1 top recommendations
+2025-04-08 19:02:58,910 - root - INFO - Processing recommendations for: Advanced Resources Ltd (ID: 4)
+2025-04-08 19:02:58,910 - src.scoring - INFO - Getting recommendations for customer: Advanced Resources Ltd with jurisdictions: ['united kingdom']
+2025-04-08 19:02:58,911 - src.db - INFO - Querying relevant policies for jurisdiction 'united kingdom' updated in the last 30 days
+2025-04-08 19:02:58,911 - src.db - INFO - Found 1 relevant policies
+2025-04-08 19:02:58,912 - src.scoring - INFO - Returning 1 top recommendations
+2025-04-08 19:02:58,912 - root - INFO - Processing recommendations for: Future Resources Solutions (ID: 5)
+2025-04-08 19:02:58,912 - src.scoring - INFO - Getting recommendations for customer: Future Resources Solutions with jurisdictions: ['germany']
+2025-04-08 19:02:58,913 - src.db - INFO - Querying relevant policies for jurisdiction 'germany' updated in the last 30 days
+2025-04-08 19:02:58,913 - src.db - INFO - Found 1 relevant policies
+2025-04-08 19:02:58,914 - src.scoring - INFO - Returning 1 top recommendations
+2025-04-08 19:02:58,914 - root - INFO - Processing recommendations for: Elite Tech Inc (ID: 6)
+2025-04-08 19:02:58,914 - src.scoring - INFO - Getting recommendations for customer: Elite Tech Inc with jurisdictions: ['netherlands']
+2025-04-08 19:02:58,914 - src.db - INFO - Querying relevant policies for jurisdiction 'netherlands' updated in the last 30 days
+2025-04-08 19:02:58,915 - src.db - INFO - Found 1 relevant policies
+2025-04-08 19:02:58,916 - src.scoring - INFO - Returning 1 top recommendations
+2025-04-08 19:02:58,916 - root - INFO - Processing recommendations for: Innovative Innovations International (ID: 7)
+2025-04-08 19:02:58,916 - src.scoring - INFO - Getting recommendations for customer: Innovative Innovations International with jurisdictions: ['netherlands']
+2025-04-08 19:02:58,916 - src.db - INFO - Querying relevant policies for jurisdiction 'netherlands' updated in the last 30 days
+2025-04-08 19:02:58,917 - src.db - INFO - Found 1 relevant policies
+2025-04-08 19:02:58,918 - src.scoring - INFO - Returning 1 top recommendations
+2025-04-08 19:02:58,918 - root - INFO - Processing recommendations for: Dynamic Ventures Holdings (ID: 8)
+2025-04-08 19:02:58,918 - src.scoring - INFO - Getting recommendations for customer: Dynamic Ventures Holdings with jurisdictions: ['germany']
+2025-04-08 19:02:58,918 - src.db - INFO - Querying relevant policies for jurisdiction 'germany' updated in the last 30 days
+2025-04-08 19:02:58,918 - src.db - INFO - Found 1 relevant policies
+2025-04-08 19:02:58,920 - src.scoring - INFO - Returning 1 top recommendations
+2025-04-08 19:02:58,920 - root - INFO - Processing recommendations for: Premier Innovations Enterprises (ID: 9)
+2025-04-08 19:02:58,920 - src.scoring - INFO - Getting recommendations for customer: Premier Innovations Enterprises with jurisdictions: ['france']
+2025-04-08 19:02:58,920 - src.db - INFO - Querying relevant policies for jurisdiction 'france' updated in the last 30 days
+2025-04-08 19:02:58,920 - src.db - INFO - Found 2 relevant policies
+2025-04-08 19:02:58,922 - src.scoring - INFO - Returning 2 top recommendations
+2025-04-08 19:02:58,922 - root - INFO - Processing recommendations for: Dynamic Tech International (ID: 10)
+2025-04-08 19:02:58,922 - src.scoring - INFO - Getting recommendations for customer: Dynamic Tech International with jurisdictions: ['united states']
+2025-04-08 19:02:58,922 - src.db - INFO - Querying relevant policies for jurisdiction 'united states' updated in the last 30 days
+2025-04-08 19:02:58,923 - src.db - INFO - Found 0 relevant policies
+2025-04-08 19:02:58,923 - src.scoring - WARNING - No direct matches found for Dynamic Tech International's jurisdictions in the past 30 days.
+2025-04-08 19:02:58,923 - src.scoring - INFO - Looking for alternative recommendations...
+2025-04-08 19:02:58,923 - src.scoring - INFO - Looking for fallback recommendations for customer Dynamic Tech International with sector: manufacturing
+2025-04-08 19:02:58,924 - src.scoring - INFO - Found 3 fallback recommendations
+2025-04-08 19:02:58,924 - src.scoring - INFO - Using fallback recommendations based on sector relevance and recency
+2025-04-08 19:02:58,925 - root - INFO - 
+All recommendations saved to: output/recommendations_20250408_190258.txt
+2025-04-08 19:02:58,925 - root - INFO - 
+Done!
+2025-04-08 19:02:58,925 - root - INFO - Database connection closed

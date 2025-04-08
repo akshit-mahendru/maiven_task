@@ -1,0 +1,11 @@
+company_id,name,operating_jurisdiction,last_login,sector
+1,Strategic Resources Corp,australia,2025-03-29 12:01:04.887000+00:00,waste
+2,Global Industries Group,singapore,2025-03-28 01:04:51.600000+00:00,construction
+3,Advanced Materials Corp,germany,2025-03-30 21:28:23.296000+00:00,automotive
+4,Advanced Resources Ltd,united kingdom,2025-03-26 16:07:48.051000+00:00,banking & finance
+5,Future Resources Solutions,germany,2025-04-01 12:35:36.998000+00:00,healthcare
+6,Elite Tech Inc,netherlands,2025-03-27 03:52:58.768000+00:00,food & beverage
+7,Innovative Innovations International,netherlands,2025-04-01 20:17:23.652000+00:00,telecommunications
+8,Dynamic Ventures Holdings,germany,2025-04-01 01:06:26.421000+00:00,food & beverage
+9,Premier Innovations Enterprises,france,2025-03-27 09:33:14.665000+00:00,banking & finance
+10,Dynamic Tech International,united states,2025-03-31 13:26:06.652000+00:00,manufacturing

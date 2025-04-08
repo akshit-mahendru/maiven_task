@@ -1,0 +1,233 @@
+=== Recommendations for Strategic Resources Corp (ID: 1) ===
+Sectors: waste
+Operating jurisdictions: australia
+
+NOTE: No policies found in jurisdiction(s) australia updated in the last 30 days
+The following recommendations are based on sector relevance and recency.
+
+Top recommended policies:
+1. Act on Renewable Energy Sources ('RES Act', Dz.U. 2015 poz. 478) (poland)
+   ID: CCLW.document.i00000681.n0000
+   Updated: 2025-03-30 18:14:14.188000+00:00
+   Relevance score: 0.89
+   Sector match score: 1.0
+   Recency score: 0.44932896411722156
+   Jurisdiction: No direct match
+   Description: 
+This Act defines the new regime for support to renewable energy sources (including wind energy, ene...
+
+2. Decree 786/04 (dominican republic)
+   ID: CCLW.executive.10092.0
+   Updated: 2025-02-07 02:49:22.910000+00:00
+   Relevance score: 0.81
+   Sector match score: 1.0
+   Recency score: 0.049787068367863944
+   Jurisdiction: No direct match
+   Description: This document creates the Offices of Climate Change and Clean Development Mechanism.
+
+
+3. Just Energy Transition Investment Plan (south africa)
+   ID: CCLW.document.i00000010.n0000
+   Updated: 2025-04-04 02:50:12.956000+00:00
+   Relevance score: 0.13
+   Sector match score: 0.0
+   Recency score: 0.6703200460356393
+   Jurisdiction: No direct match
+   Description: The Just Energy Transition Investment Plan sets out the investments required between 2023-2027 to ac...
+
+================================================================================
+
+=== Recommendations for Global Industries Group (ID: 2) ===
+Sectors: construction
+Operating jurisdictions: singapore
+
+NOTE: No policies found in jurisdiction(s) singapore updated in the last 30 days
+The following recommendations are based on sector relevance and recency.
+
+Top recommended policies:
+1. Just Energy Transition Investment Plan (south africa)
+   ID: CCLW.document.i00000010.n0000
+   Updated: 2025-04-04 02:50:12.956000+00:00
+   Relevance score: 0.13
+   Sector match score: 0.0
+   Recency score: 0.6703200460356393
+   Jurisdiction: No direct match
+   Description: The Just Energy Transition Investment Plan sets out the investments required between 2023-2027 to ac...
+
+2. Commercial Code (france)
+   ID: CCLW.document.i00000022.n0000
+   Updated: 2025-04-03 12:55:08.868000+00:00
+   Relevance score: 0.12
+   Sector match score: 0.0
+   Recency score: 0.6065306597126334
+   Jurisdiction: No direct match
+   Description: Article L225-102-1 of France's Commercial Code includes provisions on non-financial disclosure oblig...
+
+3. Decree on the Types of Activities and Gases with a Greenhouse Effect (serbia)
+   ID: CCLW.document.i00000040.n0000
+   Updated: 2025-04-03 10:07:38.554000+00:00
+   Relevance score: 0.12
+   Sector match score: 0.0
+   Recency score: 0.6065306597126334
+   Jurisdiction: No direct match
+   Description: This Decree is based on the provisions of Serbia’s Law on Climate Change. It specifies the types of ...
+
+================================================================================
+
+=== Recommendations for Advanced Materials Corp (ID: 3) ===
+Sectors: automotive
+Operating jurisdictions: germany
+
+Top recommended policies:
+1. Carbon Management Strategy (germany)
+   ID: CCLW.document.i00001434.n0000
+   Updated: 2025-03-18 00:24:50.426000+00:00
+   Relevance score: 0.02
+   Sector match score: 0.0
+   Recency score: 0.1224564282529819
+   Jurisdiction: Direct match
+   Description: In February 2024, Germany approves a new carbon management strategy, setting out the use of CCS / CC...
+
+================================================================================
+
+=== Recommendations for Advanced Resources Ltd (ID: 4) ===
+Sectors: banking & finance
+Operating jurisdictions: united kingdom
+
+Top recommended policies:
+1. Anti-greenwashing rule  (united kingdom)
+   ID: CCLW.document.i00001257.n0000
+   Updated: 2025-03-23 08:51:27.365000+00:00
+   Relevance score: 0.04
+   Sector match score: 0.0
+   Recency score: 0.20189651799465538
+   Jurisdiction: Direct match
+   Description: The Financial Conduct Authority (FCA) Handbook includes an 'anti-greenwashing rule' (ESG 4.3.1R), wh...
+
+================================================================================
+
+=== Recommendations for Future Resources Solutions (ID: 5) ===
+Sectors: healthcare
+Operating jurisdictions: germany
+
+Top recommended policies:
+1. Carbon Management Strategy (germany)
+   ID: CCLW.document.i00001434.n0000
+   Updated: 2025-03-18 00:24:50.426000+00:00
+   Relevance score: 0.82
+   Sector match score: 1.0
+   Recency score: 0.1224564282529819
+   Jurisdiction: Direct match
+   Description: In February 2024, Germany approves a new carbon management strategy, setting out the use of CCS / CC...
+
+================================================================================
+
+=== Recommendations for Elite Tech Inc (ID: 6) ===
+Sectors: food & beverage
+Operating jurisdictions: netherlands
+
+Top recommended policies:
+1. Electricity Act (netherlands)
+   ID: CCLW.document.i00000263.n0000
+   Updated: 2025-03-14 21:17:08.381000+00:00
+   Relevance score: 0.02
+   Sector match score: 0.0
+   Recency score: 0.09071795328941251
+   Jurisdiction: Direct match
+   Description: The Electricity Act (E-Act) 1998 is an important basis for the creation of the electricity market in...
+
+================================================================================
+
+=== Recommendations for Innovative Innovations International (ID: 7) ===
+Sectors: telecommunications
+Operating jurisdictions: netherlands
+
+Top recommended policies:
+1. Electricity Act (netherlands)
+   ID: CCLW.document.i00000263.n0000
+   Updated: 2025-03-14 21:17:08.381000+00:00
+   Relevance score: 0.02
+   Sector match score: 0.0
+   Recency score: 0.09071795328941251
+   Jurisdiction: Direct match
+   Description: The Electricity Act (E-Act) 1998 is an important basis for the creation of the electricity market in...
+
+================================================================================
+
+=== Recommendations for Dynamic Ventures Holdings (ID: 8) ===
+Sectors: food & beverage
+Operating jurisdictions: germany
+
+Top recommended policies:
+1. Carbon Management Strategy (germany)
+   ID: CCLW.document.i00001434.n0000
+   Updated: 2025-03-18 00:24:50.426000+00:00
+   Relevance score: 0.02
+   Sector match score: 0.0
+   Recency score: 0.1224564282529819
+   Jurisdiction: Direct match
+   Description: In February 2024, Germany approves a new carbon management strategy, setting out the use of CCS / CC...
+
+================================================================================
+
+=== Recommendations for Premier Innovations Enterprises (ID: 9) ===
+Sectors: banking & finance
+Operating jurisdictions: france
+
+Top recommended policies:
+1. Commercial Code (france)
+   ID: CCLW.document.i00000022.n0000
+   Updated: 2025-04-03 12:55:08.868000+00:00
+   Relevance score: 0.12
+   Sector match score: 0.0
+   Recency score: 0.6065306597126334
+   Jurisdiction: Direct match
+   Description: Article L225-102-1 of France's Commercial Code includes provisions on non-financial disclosure oblig...
+
+2. Decree 2015-1850 of December 29, 2015 taken pursuant to Article L. 533-22-1 of the Monetary and Financial Code (france)
+   ID: CCLW.document.i00000016.n0000
+   Updated: 2025-03-18 05:56:39.479000+00:00
+   Relevance score: 0.02
+   Sector match score: 0.0
+   Recency score: 0.1224564282529819
+   Jurisdiction: Direct match
+   Description: This Decree replaces Article D. 533-16-1 of the Monetary and Financial Code. It elaborates on the st...
+
+================================================================================
+
+=== Recommendations for Dynamic Tech International (ID: 10) ===
+Sectors: manufacturing
+Operating jurisdictions: united states
+
+NOTE: No policies found in jurisdiction(s) united states updated in the last 30 days
+The following recommendations are based on sector relevance and recency.
+
+Top recommended policies:
+1. Just Energy Transition Investment Plan (south africa)
+   ID: CCLW.document.i00000010.n0000
+   Updated: 2025-04-04 02:50:12.956000+00:00
+   Relevance score: 0.13
+   Sector match score: 0.0
+   Recency score: 0.6703200460356393
+   Jurisdiction: No direct match
+   Description: The Just Energy Transition Investment Plan sets out the investments required between 2023-2027 to ac...
+
+2. Commercial Code (france)
+   ID: CCLW.document.i00000022.n0000
+   Updated: 2025-04-03 12:55:08.868000+00:00
+   Relevance score: 0.12
+   Sector match score: 0.0
+   Recency score: 0.6065306597126334
+   Jurisdiction: No direct match
+   Description: Article L225-102-1 of France's Commercial Code includes provisions on non-financial disclosure oblig...
+
+3. Decree on the Types of Activities and Gases with a Greenhouse Effect (serbia)
+   ID: CCLW.document.i00000040.n0000
+   Updated: 2025-04-03 10:07:38.554000+00:00
+   Relevance score: 0.12
+   Sector match score: 0.0
+   Recency score: 0.6065306597126334
+   Jurisdiction: No direct match
+   Description: This Decree is based on the provisions of Serbia’s Law on Climate Change. It specifies the types of ...
+
+================================================================================
