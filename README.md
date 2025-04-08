@@ -31,5 +31,5 @@ First, **Candidate (policy) generator** serves as a high-recall retriever, aimin
 
 Using Approx. Nearest Neighbours via hierarchical navigable small worlds (HNSW) (HNSW is my preference but would also look into Nearest Neighbours if the amount of data is less than assumed) and then they can be ranked in order of relevance using **Ranker**. Large models like the embedding model for policies and Ranker can be trained offline on a regular schedule. For real-time inference — especially to handle updates from external sessions — a quantized, lightweight version of the model can be used to serve predictions with lower latency.
 
-**(Note: There are other dimensions we can optimize like Distillation, Leveraging GPUs and CPUs effectively, Monitoring to identify bottle necks)**  
+**(Note: There are other dimensions we can optimize like Model Distillation, Leveraging GPUs and CPUs effectively, Monitoring to identify bottle necks)**  
 
